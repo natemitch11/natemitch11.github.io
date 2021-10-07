@@ -1,12 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nate Mitchell's Portfolio</title>
-</head>
-<body>
-    <h1>Nate Mitchell</h1>
-</body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header id='header' class="header background">
+      <h1 id="name-tag">Nate Mitchell</h1>
+      <h2 id="software-tag">Software Developer</h2>
+      <nav class="nav-container">
+        <a href="https://www.linkedin.com/in/natemitch11/" target="_blank">
+          <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+        <h3 id='about-show' class="about-tag">About Me</h3>
+        <h3 id='skill-show' class="skill-tag">Skills and Stacks</h3>
+        <h3 id='project-show' class="projects-tag">Projects</h3>
+        <h3 id='contact-show' class="contact-tag">Contact</h3>
+        <a href="https://github.com/natemitch11" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <div id='about-me' class="hidden info-container background">
+      <div class="title-container">
+        <h1 class="title">About Me</h1>
+        <h2 id='about-hide' class='about-hide'>ᚱᛖᛏᚢᚱᚾ ᚺᛟᛗᛖ</h2>
+      </div>
+      <div class="bio-container">
+        <img id='about-me-pic' src="/assets/professional-pic.jpg" alt="me pic">
+        <div class="tldr">
+          <h3>TLDR:</h3>
+          <ul>
+            <li>I am a software developer aspiring to write code that saves lives</li>
+            <br>
+            <li>Prior to this I was an EMT who provided patient care in medical emergencies. I have worked in remote
+              wilderness as well as a premier Level 1 Trauma Center's Emergency Room</li><br>
+            <li>Accomplished Medical Researcher with publications in various Medical Journals such as <a
+                href="https://www.mdpi.com/2077-0383/10/2/251" target="_blank">Journal of
+                Clinical Medicine</a> and <a
+                href="https://journals.lww.com/ccejournal/Fulltext/2021/02000/Observations_of_Acoustic_Interruptions_Versus.3.aspx"
+                target="_blank">Critical Care Explorations</a></li><br>
+            <li>Highly Skilled Team Player and Collaborator who keeps a cool head in extremely stress environments</li>
+          </ul>
+        </div>
+        <div class="bio">
+          <div class="bio-info">
+            <h3>PROFESSIONAL BIO:</h3>
+            <p>I was introduced to technology and the medical field through the medical field. Early in my 20's I
+              helped a behavioral health private practice revamp all their computer systems, modernize their billing
+              and collection software, and transition them from an entirely paper based charting system to an
+              Electronic Medical Record. After attending college for a few semesters, I felt like I was missing
+              something in my life though, I hadn't really found anything that fascinated me, until I became an EMT.
+            </p>
+            <br>
+            <p>
+              I was an EMT in both the deserts of Moab as well as in the Emergency
+              Room of the University of Utah Hospital. Some key accomplishments that I obtained there were:
+              <br>
+            <ul>
+              <li>Member of the Cardiac Arrest Rapid Response Team</li>
+              <li>EMT Preceptor and Critical Care Skills Trainer</li>
+              <li>Member of the Trauma Team</li>
+              <li>Member of the Critical Care Team</li>
+              <li>Medical Skill Preceptor to Resident Doctors for various skills within my scope</li>
+            </ul>
+            <br>
+            I was exposed to many Electronic Medical Record Systems such as Epic and InSync, Medical Image Sharing
+            Databases such as PACS, and many other cutting edge tools such as Ultrasound Guided Procedures and Cardiac
+            Monitoring software. Over the course of the last 5 years as medicine has captivated my mind, I have
+            learned my true passion lies with the
+            technology side of things and creating the tools of tomorrow. My vision is to write code that saves lives
+            </p>
+            <br>
+          </div>
+        </div>
+        <div class="hobbies">
+          <h3 class="hobbies-title" style="text-align: center;">HOBBIES AND INTERESTS!</h3>
+          <p>
+            Where to Begin? First and foremost, my spirit animal is an eagle.<br><br>
+            I enjoy being outside in the sunshine. Fishing and Fly-fishing are my activities of choice. Randomly and
+            sporadically through the week I enjoy channeling my inner viking and cooking over a fire or smoking some
+            food in smoker.<br><br>
+            I am an ultra-nerd, Avid anime-enthusiast, and my most recent DnD character class was cleric.<br><br>
+            When I am not spending time with family I am probably working on increasing my coding knowledge, playing
+            some games online with some friends, researching new rivers and lakes to go fish, or sleeping.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id='skills' class="hidden info-container background">
+      <div class="title-container">
+        <h1 class="title">Skills</h1>
+        <h2 id='skills-hide' class='about-hide'>ᚱᛖᛏᚢᚱᚾ ᚺᛟᛗᛖ</h2>
+      </div>
+      <div id='skills-icons' class="skills-container">
+        <div class="dev-icons">
+          <div class='icon-row1'>
+            <span>
+              <i class="devicon-html5-plain"></i>
+              <p>HTML5</p>
+            </span>
+            <span>
+              <i class="devicon-css3-plain"></i>
+              <p>CSS</p>
+            </span>
+            <span>
+              <i class="devicon-javascript-plain"></i>
+              <p>JavaScript</p>
+            </span>
+            <span>
+              <i class="devicon-nodejs-plain"></i>
+              <p>NodeJS</p>
+            </span>
+            <span>
+              <i class="devicon-react-original"></i>
+              <p>React</p>
+            </span>
+          </div>
+          <div class='icon-row2'>
+            <span>
+              <i class="devicon-python-plain"></i>
+              <p>Python</p>
+            </span>
+            <span>
+              <i class="devicon-npm-original-wordmark"></i>
+              <p>NPM</p>
+            </span>
+            <span>
+              <i class="devicon-git-plain"></i>
+              <p>Git</p>
+            </span>
+            <span>
+              <i class="devicon-github-original"></i>
+              <p>GitHub</p>
+            </span>
+          </div>
+        </div>
+        <div class='skill-info'>
+          <h2>I am confident and proficient in all the above technologies. I am also familiar with the documentation for
+            all the above technologies. <br><br>Above all I am always looking to learn from anyone. My vision is to
+            write code that makes sense, not the need to be the smartest in the room.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div id='projects' class="hidden info-container background">
+      <div class="title-container">
+        <h1 class="title">Projects</h1>
+        <h2 id='project-hide' class='about-hide'>ᚱᛖᛏᚢᚱᚾ ᚺᛟᛗᛖ</h2>
+      </div>
+      <div class="project-outer-container">
+        <div class="project-imgs">
+          <img id='login-img'src="/assets/Eir Screenshots/eir login screenshot.png" alt="login screen">
+          <img id='homepage-img'src="/assets/Eir Screenshots/eir doctor hover.png" alt="">
+          <div class='loom-vid'>
+            <iframe src="https://www.loom.com/embed/454537073c5342dbbfc5709382c17d47" frameborder="0"
+              webkitallowfullscreen mozallowfullscreen allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <div class="project-info-container">
+          <h2 class='project-info'>Eir Scheduling Solutions:</h2>
+          <p>
+            This project is a Full-Stack application. The server has API's that the front end can use to obtain the data
+            that is populated on the calendar. The software is a simple scheduling application geared towards doctors
+            offices. with it you can:
+          </p>
+          <ul>
+            <li>Securely Register and login</li>
+            <li>Create a New Patient</li>
+            <li>Create New Appointments that are linked to patients on the server</li>
+            <li>All Calendar events are clickable and draggable</li>
+            <li>Data persists and is stored securely in a database</li>
+          </ul>
+          <br>
+          <h3>Back End: Node JS <i class="devicon-nodejs-plain"></i> | Packages: Express, Cors, BCrypt</h3>
+          <h3>Front End: JavaScript <i class="devicon-javascript-plain"></i> HTML <i class="devicon-html5-plain"></i>
+            CSS <i class="devicon-css3-plain"></i> | Packages: Axios, <a class='link-hover'
+              href="https://fullcalendar.io/">
+              <h4>Fullcalendar.io</h4>
+            </a></h3>
+          <br><br><br>
+          <div class='github-container'>
+            <a class='link-hover' href="https://github.com/natemitch11/eir-scheduling-app">
+              <h4 id='github-link' style="text-align: center;">CODE</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id='contact' class="hidden info-container background">
+      <div class="title-container">
+        <h1 class="title">Contact Me!</h1>
+        <h2 id="contact-hide" class='about-hide'>ᚱᛖᛏᚢᚱᚾ ᚺᛟᛗᛖ</h2>
+      </div>
+      <div class="contact-form">
+        <svg xmlns="http://www.w3.org/2000/svg" height="200" fill="#58a4b0" class="bibi bi-envelope-fill"
+          id='closed-env' viewBox="0 0 16 16">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="white"
+          class="hidden bibi bi-envelope-open-fill" id='open-env' viewBox="0 0 16 16">
+          <path
+            d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
+        </svg>
+        <a class='contact-link' href="https://www.linkedin.com/in/natemitch11/" target="_blank">
+          <svg id="icon" xmlns="http://www.w3.org/2000/svg" height="200" fill="#58a4b0" class="bibi bi-linkedin"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+        <a class='contact-link'
+          href="https://docs.google.com/document/d/1ow1F7XKS0zoz2Ik5ZyLfoqol5IgCioU3nfwlLQpydw4/edit?usp=sharing"
+          target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" height="200" fill="#58a4b0" class="bibi bi-file-pdf-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.523 10.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.035 21.035 0 0 0 .5-1.05 11.96 11.96 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.888 3.888 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 4.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z" />
+            <path fill-rule="evenodd"
+              d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm.165 11.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.64 11.64 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.707 19.707 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z" />
+          </svg>
+        </a>
+      </div>
+      <div class='contact-text'>
+        <h2>Feel free to Email Me, Check out my LinkedIn, or Check out my Resume!</h2>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+
 </html>
