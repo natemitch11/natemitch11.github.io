@@ -27,39 +27,11 @@ let contactShow = document.getElementById('contact-show')
 let homeForm = document.getElementById('header')
 
 //event listeners
-aboutShow.addEventListener('click', () => {
-    addHidden(homeForm)
-    removeHidden(aboutForm)
-})
-aboutHide.addEventListener('click', () => {
-    addHidden(aboutForm)
-    removeHidden(homeForm)
-})
-skillsShow.addEventListener('click', () => {
-    addHidden(homeForm)
-    removeHidden(skillsForm)
-})
-skillsHide.addEventListener('click', () => {
-    addHidden(skillsForm)
-    removeHidden(homeForm)
-})
-projectShow.addEventListener('click', () => {
-    addHidden(homeForm)
-    removeHidden(projectForm)
-})
-projectHide.addEventListener('click', () => {
-    addHidden(projectForm)
-    removeHidden(homeForm)
-})
-contactShow.addEventListener('click', () => {
-    addHidden(homeForm)
-    removeHidden(contactForm)
-})
 contactHide.addEventListener('click', () => {
-    addHidden(contactForm)
-    removeHidden(homeForm)
-    addHidden(openMail)
-    removeHidden(closedMail)
+    setTimeout(()=>{
+        addHidden(openMail)
+        removeHidden(closedMail) 
+    }, 300)
 })
 closedMail.addEventListener('click', () => {
     addHidden(closedMail)
