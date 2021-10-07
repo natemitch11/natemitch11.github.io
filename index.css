@@ -255,8 +255,12 @@ li {
   font-size: 2rem;
   transition: 0.2s;
 }
+.project-info-container i{
+  font-size: 2rem;
+}
 .project-info-container h4:hover{
   font-size: 2.1rem;
+  color: #58a4b0;
 }
 .github-container{
   width: 100%;
