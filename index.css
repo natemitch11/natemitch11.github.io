@@ -120,7 +120,7 @@ li {
   font-size: 1.3rem;
 }
 
-/* BIO */
+/* BIO ----------------------------------------------------------------------------*/
 .bio-container {
   height: 80%;
   display: flex;
@@ -164,7 +164,7 @@ li {
 .hobbies p {
   margin: 0 1rem 0 1rem;
 }
-/* SKILLS AND STACKS*/
+/* SKILLS AND STACKS ---------------------------------------------------------------------------*/
 .skills-container{
   display: flex;
   align-items: center;
@@ -204,7 +204,7 @@ li {
 .icon-row2{
   display: flex;
 }
-/* PROJECT */
+/* PROJECT ---------------------------------------------------------------------*/
 .project-outer-container{
   display: flex;
   height: 75%;
@@ -255,12 +255,19 @@ li {
   font-size: 2rem;
   transition: 0.2s;
 }
+.project-info-container h5{
+  font-size: 2rem;
+  transition: 0.2s;
+}
 .project-info-container i{
   font-size: 2rem;
 }
 .project-info-container h4:hover{
   font-size: 2.1rem;
   color: #58a4b0;
+}
+.project-info-container h5:hover{
+  font-size: 2.1rem;
 }
 .github-container{
   width: 100%;
@@ -273,7 +280,7 @@ li {
   border-radius: 2rem;
   align-items: center;
 }
-/*CONTACT*/
+/*CONTACT ---------------------------------------------------------------------------*/
 .contact-form {
   display: flex;
   align-items: center;

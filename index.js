@@ -58,6 +58,8 @@ contactShow.addEventListener('click', () => {
 contactHide.addEventListener('click', () => {
     addHidden(contactForm)
     removeHidden(homeForm)
+    addHidden(openMail)
+    removeHidden(closedMail)
 })
 closedMail.addEventListener('click', () => {
     addHidden(closedMail)
