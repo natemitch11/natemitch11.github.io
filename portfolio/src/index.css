@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Staatliches&display=swap");
+
+.hidden {
+  display: none !important;
+}
+
+#name-tag {
+  font-family: "Staatliches", sans-serif;
+  font-size: 13rem;
+  transition: color 0.2s;
+}
+#name-tag:hover {
+  color: #58a4b0;
+}
+#software-tag {
+  font-family: "Staatliches", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1.7rem;
+}
