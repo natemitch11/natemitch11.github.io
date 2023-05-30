@@ -4,9 +4,9 @@ import { SectionHeader } from "./SectionHeader";
 import {
   Email,
   Drafts,
-  FileOpen,
   ContentCopy,
   CheckCircleOutline,
+  ContactPage,
 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
@@ -85,7 +85,7 @@ export const Contact = () => {
             to="https://docs.google.com/document/d/1ow1F7XKS0zoz2Ik5ZyLfoqol5IgCioU3nfwlLQpydw4/edit?usp=sharing"
             target="_blank"
           >
-            <FileOpen sx={fontSize} />
+            <ContactPage sx={fontSize} />
           </Link>
         </Box>
       </Container>

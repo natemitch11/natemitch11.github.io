@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import headshot from "../assets/professional-pic.jpg";
 import {
@@ -8,18 +8,28 @@ import {
   ListItem,
   ListItemIcon,
   Typography,
+  CircularProgress,
 } from "@mui/material";
 import CircleIcon from "@mui/icons-material/Circle";
 import { SectionHeader } from "./SectionHeader";
 
 export const About = () => {
+  const [loading, setLoading] = useState(true);
+
   const fontSize = { fontSize: "0.5rem" };
   return (
     <>
       <Container>
         <SectionHeader headerTitle={"About Me"} />
         <Box display="flex">
-          <img id="headshot" src={headshot} alt="me pic" height={350} />
+          {loading && <CircularProgress />}
+          <img
+            id="headshot"
+            src={headshot}
+            alt="me pic"
+            height={350}
+            onLoad={() => setLoading(false)}
+          />
           <Box sx={{ marginLeft: "0.5rem", maxWidth: "1150px" }}>
             <Typography variant="h5">TLDR:</Typography>
             <List>

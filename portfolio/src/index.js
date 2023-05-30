@@ -16,6 +16,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { theme } from "./theme";
+import { Tableau } from "./components/tableau/Tableau";
 
 const router = createBrowserRouter(
   createRoutesFromElements([
@@ -24,7 +25,8 @@ const router = createBrowserRouter(
     <Route path="skills" element={<Skills />} />,
     <Route path="projects" element={<Projects />} />,
     <Route path="contact" element={<Contact />} />,
-    <Route path="error-boundary" element={<ErrorBoundary />} />,
+    <Route path="tableau" element={<Tableau />} />,
+    <Route path="*" element={<ErrorBoundary />} />,
   ])
 );
 
@@ -32,7 +34,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline enableColorScheme />
-      <RouterProvider fallbackElement={<ErrorBoundary />} router={router} />
+      <RouterProvider router={router} />
     </ThemeProvider>
   </React.StrictMode>
 );
